@@ -185,16 +185,7 @@ def open_chatbot():
     print("Opening chatbot......")
     os.system('streamlit run chatbot.py')
     
-    
 
-
-
-    
-
-
-    
-    
-    
     
 def ai_menu():
     print("----------Ai----------")
@@ -214,13 +205,29 @@ def ai_menu():
     else:
         print("Invalid choice. Please try again.")
         
+def sentiment_analysis():
+    print("----------Sentiment Analysis----------")
+        
         
 def web_scraper():
     print("----------Web Scraper----------")
-    text = "The film was excellent! Acting was great and story was engaging"
-    analyzer = SentimentIntensityAnalyzer()
-    scores = analyzer.polarity_scores(text)
-    print(scores)
+    
+        
+        
+def web_scraper_menu():
+    print("----------Web Scraper----------")
+    print("1. Scrape stock data")
+    print("2. Sentiment analysis")
+    print("3. Exit")
+    choice = input("Enter your choice: ")
+    if choice == "1":
+        web_scraper()
+    elif choice == "2":
+        sentiment_analysis()
+    elif choice == "3":
+        main_menu()
+    else:
+        print("Invalid choice. Please try again.")
 
     
     
@@ -256,7 +263,7 @@ def main_menu():
     elif choice == "6":
         ai_menu()
     elif choice == "7":
-        web_scraper()
+        web_scraper_menu()
     elif choice == "8":
         sys.exit(0)
     else:
