@@ -205,38 +205,7 @@ def ai_menu():
     else:
         print("Invalid choice. Please try again.")
         
-def sentiment_analysis():
-    print("----------Sentiment Analysis----------")
-        
-        
-def web_scraper():
-    print("----------Web Scraper----------")
-    
-        
-        
-def web_scraper_menu():
-    print("----------Web Scraper----------")
-    print("1. Scrape stock data")
-    print("2. Sentiment analysis")
-    print("3. Exit")
-    choice = input("Enter your choice: ")
-    if choice == "1":
-        web_scraper()
-    elif choice == "2":
-        sentiment_analysis()
-    elif choice == "3":
-        main_menu()
-    else:
-        print("Invalid choice. Please try again.")
 
-    
-    
-    
-    
-        
-        
-        
-    
 
 
 def main_menu():
@@ -247,8 +216,7 @@ def main_menu():
     print("4. View a stock")
     print("5. Update a stock")
     print("6. Use Ai")
-    print("7. Use web scraper")
-    print("8. Exit")
+    print("7. Exit")
     choice = input("Enter your choice: ")
     if choice == "1":
         add_stock()
@@ -263,11 +231,10 @@ def main_menu():
     elif choice == "6":
         ai_menu()
     elif choice == "7":
-        web_scraper_menu()
-    elif choice == "8":
         sys.exit(0)
     else:
         print("Invalid choice. Please try again.")
+        main_menu()
 
     
 
