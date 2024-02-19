@@ -13,12 +13,7 @@ import plotly.graph_objects as go
 import sys
 from beibo import oracle
 import numpy as np
-import openai
-from dotenv import load_dotenv
 import os
-from os import environ
-from bardapi import Bard
-import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 
 
