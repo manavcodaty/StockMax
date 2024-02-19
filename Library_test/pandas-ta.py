@@ -1,8 +1,7 @@
 import pandas as pd
 import pandas_ta as ta
 
-df = pd.DataFrame() # Empty DataFrame
-
+df = pd.DataFrame()  # Empty DataFrame
 
 # OR if you have yfinance installed
 df = df.ta.ticker("aapl")
