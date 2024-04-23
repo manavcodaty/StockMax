@@ -1,4 +1,4 @@
-README for StockMax Repository
+StockMax
 =============================
 
 StockMax is a powerful and intuitive stock market prediction tool that uses machine learning algorithms to analyze historical stock prices and predict future trends. With StockMax, you can make informed investment decisions and maximize your profits.
