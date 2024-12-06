@@ -98,10 +98,3 @@ Contact
 
 If you have any questions or feedback, please contact us at [manavcodaty@gmail.com](mailto:manavcodaty@gmail.com).
 
-Citations:
-[1] https://github.com/manavcodaty/StockMax
-[2] https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
-[3] https://github.com/andreasbm/readme
-[4] https://www.sitepoint.com/github-profile-readme/
-[5] https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme
-[6] https://www.youtube.com/watch?v=jeOfS90Flf8
